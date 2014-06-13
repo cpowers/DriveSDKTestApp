@@ -21,6 +21,12 @@
 		36BDE525194BA5FF002C24F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BDE507194BA5FF002C24F2 /* UIKit.framework */; };
 		36BDE52D194BA5FF002C24F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36BDE52B194BA5FF002C24F2 /* InfoPlist.strings */; };
 		36BDE52F194BA5FF002C24F2 /* DriveTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BDE52E194BA5FF002C24F2 /* DriveTestAppTests.m */; };
+		36BDEF0B194BA874002C24F2 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BDEEF5194BA82B002C24F2 /* libGTLTouchStaticLib.a */; };
+		36BDEF0D194BA87E002C24F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BDEF0C194BA87E002C24F2 /* Security.framework */; };
+		36BDEF0F194BA883002C24F2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BDEF0E194BA883002C24F2 /* MobileCoreServices.framework */; };
+		36BDEF11194BA88E002C24F2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BDEF10194BA88E002C24F2 /* SystemConfiguration.framework */; };
+		36BDEF13194BA9A3002C24F2 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36BDEF12194BA9A3002C24F2 /* GTMOAuth2ViewTouch.xib */; };
+		36BDEF16194BA9E8002C24F2 /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BDEF14194BA9E8002C24F2 /* GTLDrive_Sources.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +36,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 36BDE4FF194BA5FF002C24F2;
 			remoteInfo = DriveTestApp;
+		};
+		36BDEEF2194BA82B002C24F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36BDE539194BA827002C24F2 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
+			remoteInfo = GTLFramework;
+		};
+		36BDEEF4194BA82B002C24F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36BDE539194BA827002C24F2 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027C11A4CA2F00BEB470;
+			remoteInfo = GTLTouchStaticLib;
+		};
+		36BDEEF6194BA82B002C24F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36BDE539194BA827002C24F2 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027D11A4CA2F00BEB470;
+			remoteInfo = GTLUnitTests;
+		};
+		36BDEEF8194BA82B002C24F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36BDE539194BA827002C24F2 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
+			remoteInfo = DevelopmentTestTool;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +87,13 @@
 		36BDE52A194BA5FF002C24F2 /* DriveTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DriveTestAppTests-Info.plist"; sourceTree = "<group>"; };
 		36BDE52C194BA5FF002C24F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36BDE52E194BA5FF002C24F2 /* DriveTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DriveTestAppTests.m; sourceTree = "<group>"; };
+		36BDE539194BA827002C24F2 /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GTL.xcodeproj; sourceTree = "<group>"; };
+		36BDEF0C194BA87E002C24F2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		36BDEF0E194BA883002C24F2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		36BDEF10194BA88E002C24F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		36BDEF12194BA9A3002C24F2 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = DriveSDK/OAuth2/Touch/GTMOAuth2ViewTouch.xib; sourceTree = SOURCE_ROOT; };
+		36BDEF14194BA9E8002C24F2 /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLDrive_Sources.m; path = Services/Drive/Generated/GTLDrive_Sources.m; sourceTree = "<group>"; };
+		36BDEF15194BA9E8002C24F2 /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLDrive.h; path = Services/Drive/Generated/GTLDrive.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +101,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BDEF11194BA88E002C24F2 /* SystemConfiguration.framework in Frameworks */,
+				36BDEF0F194BA883002C24F2 /* MobileCoreServices.framework in Frameworks */,
+				36BDEF0D194BA87E002C24F2 /* Security.framework in Frameworks */,
+				36BDEF0B194BA874002C24F2 /* libGTLTouchStaticLib.a in Frameworks */,
 				36BDE506194BA5FF002C24F2 /* CoreGraphics.framework in Frameworks */,
 				36BDE508194BA5FF002C24F2 /* UIKit.framework in Frameworks */,
 				36BDE504194BA5FF002C24F2 /* Foundation.framework in Frameworks */,
@@ -101,6 +146,9 @@
 		36BDE502194BA5FF002C24F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36BDEF10194BA88E002C24F2 /* SystemConfiguration.framework */,
+				36BDEF0E194BA883002C24F2 /* MobileCoreServices.framework */,
+				36BDEF0C194BA87E002C24F2 /* Security.framework */,
 				36BDE503194BA5FF002C24F2 /* Foundation.framework */,
 				36BDE505194BA5FF002C24F2 /* CoreGraphics.framework */,
 				36BDE507194BA5FF002C24F2 /* UIKit.framework */,
@@ -112,6 +160,7 @@
 		36BDE509194BA5FF002C24F2 /* DriveTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				36BDE538194BA827002C24F2 /* DriveSDK */,
 				36BDE512194BA5FF002C24F2 /* DTAAppDelegate.h */,
 				36BDE513194BA5FF002C24F2 /* DTAAppDelegate.m */,
 				36BDE515194BA5FF002C24F2 /* Main.storyboard */,
@@ -126,6 +175,7 @@
 		36BDE50A194BA5FF002C24F2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36BDEF12194BA9A3002C24F2 /* GTMOAuth2ViewTouch.xib */,
 				36BDE50B194BA5FF002C24F2 /* DriveTestApp-Info.plist */,
 				36BDE50C194BA5FF002C24F2 /* InfoPlist.strings */,
 				36BDE50F194BA5FF002C24F2 /* main.m */,
@@ -150,6 +200,27 @@
 				36BDE52B194BA5FF002C24F2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36BDE538194BA827002C24F2 /* DriveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				36BDEF14194BA9E8002C24F2 /* GTLDrive_Sources.m */,
+				36BDEF15194BA9E8002C24F2 /* GTLDrive.h */,
+				36BDE539194BA827002C24F2 /* GTL.xcodeproj */,
+			);
+			path = DriveSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		36BDE53A194BA827002C24F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36BDEEF3194BA82B002C24F2 /* GTL.framework */,
+				36BDEEF5194BA82B002C24F2 /* libGTLTouchStaticLib.a */,
+				36BDEEF7194BA82B002C24F2 /* GTLUnitTests.xctest */,
+				36BDEEF9194BA82B002C24F2 /* DevelopmentTestTool */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +287,12 @@
 			mainGroup = 36BDE4F7194BA5FF002C24F2;
 			productRefGroup = 36BDE501194BA5FF002C24F2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 36BDE53A194BA827002C24F2 /* Products */;
+					ProjectRef = 36BDE539194BA827002C24F2 /* GTL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				36BDE4FF194BA5FF002C24F2 /* DriveTestApp */,
@@ -224,11 +301,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		36BDEEF3194BA82B002C24F2 /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = 36BDEEF2194BA82B002C24F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36BDEEF5194BA82B002C24F2 /* libGTLTouchStaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGTLTouchStaticLib.a;
+			remoteRef = 36BDEEF4194BA82B002C24F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36BDEEF7194BA82B002C24F2 /* GTLUnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLUnitTests.xctest;
+			remoteRef = 36BDEEF6194BA82B002C24F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36BDEEF9194BA82B002C24F2 /* DevelopmentTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DevelopmentTestTool;
+			remoteRef = 36BDEEF8194BA82B002C24F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		36BDE4FE194BA5FF002C24F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BDEF13194BA9A3002C24F2 /* GTMOAuth2ViewTouch.xib in Resources */,
 				36BDE51C194BA5FF002C24F2 /* Images.xcassets in Resources */,
 				36BDE50E194BA5FF002C24F2 /* InfoPlist.strings in Resources */,
 				36BDE517194BA5FF002C24F2 /* Main.storyboard in Resources */,
@@ -251,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36BDE514194BA5FF002C24F2 /* DTAAppDelegate.m in Sources */,
+				36BDEF16194BA9E8002C24F2 /* GTLDrive_Sources.m in Sources */,
 				36BDE51A194BA5FF002C24F2 /* DTAViewController.m in Sources */,
 				36BDE510194BA5FF002C24F2 /* main.m in Sources */,
 			);
@@ -379,7 +489,16 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DriveTestApp/DriveTestApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/DriveSDK/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "DriveTestApp/DriveTestApp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,7 +511,16 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DriveTestApp/DriveTestApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/DriveSDK/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "DriveTestApp/DriveTestApp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
