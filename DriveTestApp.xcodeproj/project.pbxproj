@@ -585,6 +585,7 @@
 				36BDE534194BA5FF002C24F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36BDE535194BA5FF002C24F2 /* Build configuration list for PBXNativeTarget "DriveTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +594,7 @@
 				36BDE537194BA5FF002C24F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
